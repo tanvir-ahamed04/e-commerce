@@ -1,0 +1,98 @@
+body{
+    background-color: #8d8b8b;
+}
+span{
+    color: #F85606;
+    font-weight: bold;
+}
+.nav-top-lnk{
+    background: #ECECEC;
+}
+.link-nav{
+    justify-content: space-between;
+    margin-left: 20%;
+    margin-right: 20%;
+    display: inline-block;
+}
+.link-nav a{
+    text-decoration: none;
+    color: #000;
+    font-size: xx-small;
+    font-weight: 3px;
+}
+.link-nav a:hover{
+    color: #F57224;
+    text-decoration: underline;
+}
+.logo-icon{
+    text-align: center;
+    justify-content: center;
+}
+.serch{
+    color: #fff;
+    background: #F57224;
+    width: 40px;
+    height: 38px;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 10px;
+    margin-left: -3px;
+}
+#item{
+    margin-left: 20px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.offer-img-in-logo{
+    margin-left: 40px;
+}
+.serch-input{
+    width: 700px;
+    background: #F5F5F5;
+    padding: 5px 10px;
+    border: none;
+}
+.drop-slide{
+    display: flex;
+}
+.down-list a{
+    display:block;
+    text-decoration: none;
+    color: #000;
+    font-weight: lighter;
+    font-size: small;
+    background: #fff;
+}
+.drop-list a:hover{
+    background: #ECECEC;
+}
+.drop{
+    background: #fff;
+    position: relative;
+    padding-left:10px;
+    padding-right: 10px;
+    width: 150px;
+}
+.drop-contain{
+    display:none;
+    position: absolute;
+   left: 80%;
+    top: 0%;
+    right: 0%;
+    color: #000;
+    font-weight: lighter;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+    z-index: 10;
+    background: #fff;
+    width: 150px;
+}
+.drop:hover .drop-contain{
+    display: block;
+    background-color: #fff;
+}
+.cover-item{
+    margin-left: 20px;
+}
