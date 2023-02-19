@@ -63,6 +63,9 @@ span{
     font-weight: lighter;
     font-size: small;
     background: #fff;
+    width: 180px;
+    padding-left:10px;
+    padding-right: 10px;
 }
 .drop-list a:hover{
     background: #ECECEC;
@@ -70,9 +73,7 @@ span{
 .drop{
     background: #fff;
     position: relative;
-    padding-left:10px;
-    padding-right: 10px;
-    width: 150px;
+    
 }
 .drop-contain{
     display:none;
