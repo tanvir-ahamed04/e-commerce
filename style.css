@@ -70,7 +70,7 @@ span{
     padding-left:10px;
     padding-right: 10px;
 }
-.drop-list a:hover{
+.down-list a:hover{
     background: #ECECEC;
 }
 .drop{
@@ -81,7 +81,7 @@ span{
 .drop-contain{
     display:none;
     position: absolute;
-   left: 80%;
+   left: 82%;
     top: 0%;
     right: 0%;
     color: #000;
@@ -93,9 +93,18 @@ span{
     background: #fff;
     width: 150px;
 }
+.drop i{
+    display: none;
+    padding-left: 15px;
+}
 .drop:hover .drop-contain{
     display: block;
     background-color: #fff;
+    color: #329DB7;
+}
+.drop:hover i{
+    display: inline-block;
+    color: #329DB7;
 }
 .cover-item{
     margin-left: 20px;
