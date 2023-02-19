@@ -52,6 +52,9 @@ span{
     background: #F5F5F5;
     padding: 5px 10px;
     border: none;
+    outline: none;
+    resize: none;
+    height: 38px;
 }
 .drop-slide{
     display: flex;
