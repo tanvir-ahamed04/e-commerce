@@ -59,6 +59,9 @@ span{
 .drop-slide{
     display: flex;
 }
+.drop-list{
+    margin-top: 20px;
+}
 .down-list a{
     display:block;
     text-decoration: none;
@@ -76,7 +79,6 @@ span{
 .drop{
     background: #fff;
     position: relative;
-    
 }
 .drop-contain{
     display:none;
