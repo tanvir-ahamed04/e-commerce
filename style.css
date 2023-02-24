@@ -1,7 +1,7 @@
 body{
     background-color: #8f8d8d;
 }
-span{
+.logo-hat-bazar{
     color: #F85606;
     font-weight: bold;
 }
@@ -142,15 +142,74 @@ span{
     text-decoration: none;
     color: #000;
     background-color: #e9e7e7;
-    padding: 5px 20px;
+    padding: 5px 15px;
     border-radius: 15px;
-   
 }
-.right-sing-for-gird{
+.gird .child-gird img{
+    border-radius:50% ;
+    background-color: #ffffff;
+    padding: 3px 5px;
+    border: none;
+}
+/* bug here  */
+/* i can't fix it */
+.gird .child-gird i{
     display: none;
 }
-.gird-class:hover .right-sing-for-gird{
-    display: inline;
+.gird .child-gird i:hover{
+    display: inline-block;
+}
+.gird-class:hover {
     color: #F85606;
-    box-shadow: 1px 1px 30px solid #8f8d8d;
+    box-shadow: 1px 1px 1px 1px #948f8f;
+}
+/* bug */
+/* page card */
+.ads-text{
+    color: #948f8f;
+    font-weight: lighter;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.card-top-text{
+    color: #F57224;
+    font-size: 18px;
+    font-weight: normal;
+    margin-right: 50px;
+}
+.timer-text{
+    font-size: 18px;
+    font-weight: normal;
+}
+.timer-text span{
+    color: #ffffff;
+    background-color: #F57224;
+    font-size: 20px;
+    padding: 3px 3px;
+    margin-left: 5px;
+}
+.btn-see-cards{
+    text-decoration: none;
+    border: 1px solid #F57224;
+    color: #F57224;
+    background: transparent;
+    margin-left: 65%;
+    padding: 5px 5px;
+}
+.card-item-bg{
+    background-color: #f0ecec;
+    padding-top: 20px ;
+}
+.card{
+    margin-right: 10px;
+    height: 60px;
+    border: none;
+    margin-bottom: 20px;
+}
+.card-shadow:hover{
+    box-shadow: 1px 1px 1px 2px #ccbbbb;
+}
+.card .ator-img{
+    height: 172px;
 }
