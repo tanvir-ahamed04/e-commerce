@@ -1,5 +1,5 @@
 body{
-    background-color: #8d8b8b;
+    background-color: #8f8d8d;
 }
 span{
     color: #F85606;
@@ -111,4 +111,46 @@ span{
 }
 .cover-item{
     margin-left: 20px;
+}
+/* --- */
+
+.img-for-shop{
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 25%;
+    max-width: 800px;
+    min-width: 600px;
+}
+.btn-shop-now{
+    color: #F57224;
+    background-color: #C1FFFF;
+    border-radius: 15px;
+    padding: 3px 30px;
+    margin-left: 45%;
+    z-index: 1;
+    position: absolute;
+    margin-top: -20px;
+    font-weight: bold;
+    border: none;
+}
+.gird{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.gird-class{
+    text-decoration: none;
+    color: #000;
+    background-color: #e9e7e7;
+    padding: 5px 20px;
+    border-radius: 15px;
+   
+}
+.right-sing-for-gird{
+    display: none;
+}
+.gird-class:hover .right-sing-for-gird{
+    display: inline;
+    color: #F85606;
+    box-shadow: 1px 1px 30px solid #8f8d8d;
 }
