@@ -166,7 +166,7 @@ body{
 /* bug */
 /* page card */
 .ads-text{
-    color: #948f8f;
+    color: #575050;
     font-weight: lighter;
     font-size: 25px;
     margin-top: 30px;
@@ -213,4 +213,16 @@ body{
 }
 .card .ator-img{
     height: 172px;
+}
+.minimiz-top{
+    margin-top: -20px;
+}
+.pricing{
+    margin-left: 20px;
+    color: #F57224;
+    padding-bottom: 30px;
+    padding-top: -30px;
+}
+.font-class{
+    font-weight: normal;
 }
